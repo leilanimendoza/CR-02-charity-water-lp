@@ -77,16 +77,88 @@ section {
 
 /* === Story Section === */
 .story {
-  background-color: var(--light-blue);
+  background-color: #FFF7E1;
+  color: #1A1A1A;
   text-align: center;
-  padding: 30px 20px;
+  padding: 40px 0px;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.story h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1A1A1A;
+}
+
+.story p {
+  font-size: 20px;  
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #1A1A1A;
+}
+
+.story-text {
+  text-align: center;
+  padding: 0 20px 40px;
+}
+
+.story-split {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.story-image {
+  width: 50%;
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+
+.story-quote-box {
+  width: 50%;
+  background-color: #FFF7E1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+}
+
+.story-quote-box blockquote {
+  font-size: 24px;
+  font-style: italic;
+  color: #1A1A1A;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  background-color: #FFC907;
+  color: #1A1A1A;
+  padding: 12px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  width: fit-content;
 }
 
 /* === Headings === */
 h2 {
-  color: var(--blue);
+  color: #1A1A1A;
   margin-top: 0;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 /* === Impact Story Section === */
@@ -219,34 +291,36 @@ h2 {
   background-color: #fff8e1;
   padding: 20px;
   border-radius: 10px;
-  color: black;
+  color: #1A1A1A;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 
-  max-width: 540px;
-  margin: 0 auto;
-  max-height: 900px;
-  overflow: hidden;
+  
+
 }
 
 .info-box p {
   text-align: center;
   line-height: 1.5;
+  margin: 0 auto;
 }
 
 .info-box strong {
   display: block;
-  margin-top: 0px;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .give-now-btn {
   display: inline-block;
-  margin: 15px auto 0;
+  margin-top: 0px;
   background-color: #FFC907;
   color: #1A1A1A;
-  padding: 10px 24px;
+  padding: 8px 56px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+
+  max-width: 540px;
 }
 
 
